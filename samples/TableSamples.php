@@ -39,7 +39,7 @@ use MicrosoftAzure\Storage\Common\Models\ServiceProperties;
 use MicrosoftAzure\Storage\Common\SharedAccessSignatureHelper;
 use MicrosoftAzure\Storage\Table\TableRestProxy;
 
-$connectionString = 'DefaultEndpointsProtocol=https;AccountName=<yourAccount>;AccountKey=<yourKey>';
+$connectionString = 'DefaultEndpointsProtocol=https;AccountName=<storagesoracom>;AccountKey=<fU9GepJPZu7/w3BpZn4O99Bj5AsE7KLfxN4qdZskTljcqxG8FX9DSZRtHo2CTNz3g3QV+52z9aJse/d9ww1ftQ==>';
 $tableClient = TableRestProxy::createTableService($connectionString);
 
 $mytable = 'mytable';
